@@ -1,0 +1,11 @@
+backend:
+  repository: 047385030300.dkr.ecr.us-east-1.amazonaws.com/netflix-devops-backend
+  tag: "latest"
+
+frontend:
+  repository: 047385030300.dkr.ecr.us-east-1.amazonaws.com/netflix-devops-frontend
+  tag: "latest"
+
+service:
+  backendPort: 5000
+  frontendPort: 80
